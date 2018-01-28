@@ -1,5 +1,12 @@
 <resources>
     <string name="app_name">N of 1</string>
     <string name="edit_message">Enter a Message</string>
-    <string name="button_send">Send</string>
+    <string name="button_login">Login</string>
+    <string name="button_new_trial">Enter New Trial</string>
+    <string name="button_view_past_trials">View Past Trials</string>
+    <string name="label_trial_title">Trial:</string>
+    <string name="label_trial_comparisons">Comparisons</string>
+    <string name="label_trial_length">Length of Trial:</string>
+    <string name="label_trial_notification_time">Notification Time:</string>
+    <string name="button_done">Done</string>
 </resources>
