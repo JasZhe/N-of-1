@@ -102,10 +102,11 @@ public class TrialInputsActivity extends AppCompatActivity {
         inputTitle.setText("");
         inputTitle.requestFocus();
 
-        inputNotification.setOnClickListener(new View.OnClickListener() {
+        inputNotification.setOnFocusChangeListener(new View.OnFocusChangeListener() {
             @Override
-            public void onClick(View view) {
-                if(inputNotification.getText().toString().equalsIgnoreCase("HH/MM/SS")) {
+            public void onFocusChange(View view, boolean hasFocus) {
+                String str = inputNotification.getText().toString();
+                if(str.equals("HH/MM/SS") && hasFocus) {
                     inputNotification.setText("");
                 }
             }
